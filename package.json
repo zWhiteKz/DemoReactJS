@@ -11,5 +11,13 @@
   "dependencies": {
     "ejs": "^2.5.7",
     "express": "^4.16.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zWhiteKz/DemoReactJS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zWhiteKz/DemoReactJS/issues"
+  },
+  "homepage": "https://github.com/zWhiteKz/DemoReactJS#readme"
 }
