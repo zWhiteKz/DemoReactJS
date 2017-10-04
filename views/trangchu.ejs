@@ -7,10 +7,17 @@
     <script crossorigin src="lib/react-dom.development.js"></script>
     <script src="lib/browser.min.js"></script>
   </head>
+  <style>
+    .mauvang{background-color: yellow}
+  </style>
   <body>
     <div id="root"></div>
     <script type="text/babel">
-    ReactDOM.render( <h1> DemoReactJS </h1> , document.getElementById("root"));
+    ReactDOM.render(
+    <div>
+      <h1 className="mauvang">DemoReactJS</h1>
+    </div>
+      , document.getElementById("root"));
     </script>
   </body>
 </html>
